@@ -19,110 +19,51 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <!--Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--include css-->
-    <link href="{{asset('css/layout.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/output.css') }}" rel="stylesheet">
+    
+    
 </head>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-dark fixed-top m-bg-dark flex-md-nowrap p-0 shadow">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
-            <ul class="navbar-nav px-3">
-                <li class="nav-item text-nowrap">
-                    <a class="nav-link" href="#">Sign out</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="container-fluid">
-            <div class="row">
-                <nav class="col-md-2 d-none d-md-block m-bg-dark sidebar">
-                    <div class="sidebar-sticky">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">
-                                    <span data-feather="home"></span>
-                                    Dashboard <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file"></span>
-                                    Orders
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="shopping-cart"></span>
-                                    Products
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="users"></span>
-                                    Customers
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="bar-chart-2"></span>
-                                    Reports
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="layers"></span>
-                                    Integrations
-                                </a>
-                            </li>
-                        </ul>
-
-                        <h6
-                            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                            <span>Saved reports</span>
-                            <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
-                                <span data-feather="plus-circle"></span>
+        <div class="grid  grid-cols-12  gap-0">
+            
+            <div class="col-span-12">
+                <nav class="flex items-center justify-between flex-wrap bg-white p-2 border-b-2">
+                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+                        <span class="font-semibold text-xl tracking-tight text-pink-500">Tailwind CSS</span>
+                    </div>
+                    <div class="block lg:hidden">
+                        <button class="flex items-center px-3 py-2 border rounded text-pink-500 border-teal-400 hover:text-pink-900 hover:border-white focus:outline-none">
+                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                        </button>
+                    </div>
+                    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                        <div class="text-sm lg:flex-grow">
+                            <a href="#responsive-header" class="block hover:no-underline lg:inline-block lg:mt-0 text-indigo-500 hover:text-indigo-900 mr-4">
+                                Docs
                             </a>
-                        </h6>
-                        <ul class="nav flex-column mb-2">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Current month
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Last quarter
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Social engagement
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Year-end sale
-                                </a>
-                            </li>
-                        </ul>
+                            <a href="#responsive-header" class="block hover:no-underline lg:inline-block lg:mt-0 text-indigo-500 hover:text-indigo-900 mr-4">
+                                Examples
+                            </a>
+                            <a href="#responsive-header" class="block hover:no-underline lg:inline-block lg:mt-0 text-indigo-500 hover:text-indigo-900 mr-4">
+                                Examples
+                            </a>
+                            <a href="#responsive-header" class="block hover:no-underline lg:inline-block lg:mt-0 text-indigo-500 hover:text-indigo-900 ">
+                                Blog
+                            </a>
+
+                        </div>
                     </div>
                 </nav>
-
-                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content">
-                   @yield('content')
-                </main>
             </div>
         </div>
-
+        <div class="grid grid-rows-3 grid-cols-12 grid-flow-col gap-0">
+            <div class="hidden md:block row-span-3 col-span-2 bg-white h-screen shadow-sm "></div>
+            <div class="row-span-1 col-span-2 ..."></div>
+            <div class="row-span-2 col-span-2 ..."></div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
