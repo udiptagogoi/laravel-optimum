@@ -29,8 +29,8 @@
         <div class="grid  grid-cols-12  gap-0">
             
             <div class="col-span-12">
-                <nav class="flex items-center justify-between flex-wrap bg-white p-2 border-b-2">
-                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <nav class="flex sticky items-center justify-between flex-wrap bg-white p-2 border-b-2">
+                    <div class="flex items-center flex-shrink-0 text-white mr-12">
                         <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
                         <span class="font-semibold text-xl tracking-tight text-pink-500">Tailwind CSS</span>
                     </div>
@@ -59,10 +59,18 @@
                 </nav>
             </div>
         </div>
-        <div class="grid grid-rows-3 grid-cols-12 grid-flow-col gap-0">
-            <div class="hidden md:block row-span-3 col-span-2 bg-white h-screen shadow-sm "></div>
-            <div class="row-span-1 col-span-2 ..."></div>
-            <div class="row-span-2 col-span-2 ..."></div>
+        <div class="grid grid-cols-12  gap-4">
+            <div class="hidden md:block col-span-2 bg-white h-screen shadow-sm ">
+                <ul >
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Dashboard</a> </li>
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Actions</a> </li>
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Components</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-span-10 h-screen pt-2">
+                @yield('content')
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
