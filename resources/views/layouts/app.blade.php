@@ -62,9 +62,9 @@
         <div class="grid grid-cols-12  gap-4">
             <div class="hidden md:block col-span-2 bg-white h-screen shadow-sm ">
                 <ul >
-                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Dashboard</a> </li>
-                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Actions</a> </li>
-                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500">Components</a> </li>
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500"><i class="fas fa-cogs"></i> Actions</a> </li>
+                    <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-pink-500"><i class="fas fa-pager"></i> Components</a> </li>
 
                 </ul>
             </div>
@@ -82,6 +82,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/aaef35473a.js" crossorigin="anonymous"></script>
 
     @yield('js')
 </body>
