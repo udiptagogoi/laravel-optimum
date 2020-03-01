@@ -57,59 +57,28 @@
                 </div>
             </nav>
         </header>
-        <div class="grid grid-cols-12  gap-4">
+        <div class="grid grid-cols-12  gap-4 bg-white">
             <div class="col-span-2 ">
                 <div class="nicescroll w-full mt-10 md:w-1/6 bg-white md:bg-gray-900 px-2  fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen md:border-r-2 md:border-r-2 shadow-sm">
                     <ul >
-                        <li class=" pl-2 text-gray-700 "><a href="" class="hover:no-underline hover:text-indigo-500"><img src="{{asset('img/profile.jpg')}}" class="w-6 h-6 rounded" alt=""> Udipta</a> </li>
+                        <li class=" pl-2 text-gray-700 "><a href="" class="hover:no-underline hover:text-indigo-500"><img src="{{asset('img/profile.jpg')}}" class="w-6 h-6 rounded-full" alt=""> Udipta</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
+                    </ul>
+                    <label class="text-gray-700">Components</label>
+                    <ul >
+                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
-
                     </ul>
                 </div>
             </div>    
             <div class="col-span-10">
-                <div class="w-full md:w-5/6 bg-gray-100">
-                    <div class="container bg-gray-100 pt-16 px-6">
-                        @yield('content')
-                    </div>
+                <div class="container bg-gray-100 pt-16 px-6">
+                    @yield('content')
                 </div>
             </div>
         </div>
