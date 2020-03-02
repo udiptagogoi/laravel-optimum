@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/buttons', 'HomeController@buttons')->name('buttons');
+Route::get('/alerts', 'HomeController@alerts')->name('alerts');
 

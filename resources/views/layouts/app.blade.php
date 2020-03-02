@@ -67,6 +67,7 @@
                     </ul>
                     <label class="text-gray-700">Components</label>
                     <ul >
+                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('alerts'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Alerts</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
                         <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
