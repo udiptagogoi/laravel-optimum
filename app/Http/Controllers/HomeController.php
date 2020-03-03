@@ -28,4 +28,7 @@ class HomeController extends Controller
     public function buttons(){
         return view('pages.buttons.index');
     }
+    public function tables(){
+        return view('pages.tables.index');
+    }
 }
