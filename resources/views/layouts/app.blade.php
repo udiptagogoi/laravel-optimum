@@ -67,9 +67,16 @@
                     </ul>
                     <label class="text-gray-700">Components</label>
                     <ul >
+<<<<<<< HEAD
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('tables'))}}" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-cogs"></i> Tables</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-pager"></i> Components</a> </li>
+=======
+                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('alerts'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Alerts</a> </li>
+                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
+                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
+                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
+>>>>>>> 2ff6c6ad22ee329cff8ec4355bd1c896a97dece3
                     </ul>
                     <label class="text-gray-700">Pages</label>
                     <ul >
