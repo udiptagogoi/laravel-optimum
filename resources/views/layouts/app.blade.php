@@ -26,7 +26,7 @@
 
 <body>
     <div id="app">
-        <header class="fixed w-full lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-2 py-2 shadow-sm border border-b-2">
+        <header class="fixed w-full font-bold lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-2 py-2 border-b-2">
             <div class="flex-1 flex justify-between items-center">
             <a href="">
                 <img src="{{asset('img/logo.png')}}" class="w-6 h-4" alt="">
@@ -59,7 +59,7 @@
         </header>
         <div class="grid grid-cols-12  gap-4">
             <div class="col-span-2">
-                <div class="nicescroll w-full mt-10 md:w-1/6 bg-blue-900 md:bg-gray-900 px-2  fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen md:border-r-2 shadow-sm">
+                <div class="nicescroll w-full mt-10 md:w-1/6 bg-white font-bold md:bg-gray-900 px-2  fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen shadow-md">
                     <ul >
                         <li class=" pl-2 text-gray-700 "><a href="" class="hover:no-underline hover:text-indigo-500"><img src="{{asset('img/profile.jpg')}}" class="w-6 h-6 rounded-full" alt=""> Udipta</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('home'))}}" class="hover:no-underline hover:text-indigo-600 "><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
@@ -67,16 +67,10 @@
                     </ul>
                     <label class="text-gray-700">Components</label>
                     <ul >
-<<<<<<< HEAD
+                        <li class=" p-2 text-gray-600 "><a href="{{asset(route('alerts'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Alerts</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('tables'))}}" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-cogs"></i> Tables</a> </li>
-                        <li class=" p-2 text-gray-600 "><a href="" class="hover:no-underline hover:text-indigo-600"><i class="fas fa-pager"></i> Components</a> </li>
-=======
-                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('alerts'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Alerts</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="{{asset(route('buttons'))}}" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-tachometer-alt"></i> Buttons</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
-                        <li class=" p-2 text-gray-500 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-pager"></i> Components</a> </li>
->>>>>>> 2ff6c6ad22ee329cff8ec4355bd1c896a97dece3
+                        <li class=" p-2 text-gray-600 "><a href="" class="hover:no-underline hover:text-indigo-500"><i class="fas fa-cogs"></i> Actions</a> </li>
                     </ul>
                     <label class="text-gray-700">Pages</label>
                     <ul >
@@ -99,7 +93,7 @@
                 </div>
             </div>
             <div class="col-span-10">
-                <div class="container bg-gray-200 pt-16 px-6 shadow-sm">
+                <div class="container bg-gray-300 pt-16 px-6">
                     @yield('content')
                 </div>
             </div>
