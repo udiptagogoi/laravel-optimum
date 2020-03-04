@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="col-span-10">
-                <div class="container bg-gray-300 pt-16 px-6">
+                <div class="container bg-gray-300 pt-16 px-6 h-screen">
                     @yield('content')
                 </div>
             </div>
