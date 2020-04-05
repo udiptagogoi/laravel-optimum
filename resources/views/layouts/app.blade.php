@@ -59,7 +59,7 @@
         </header>
         <div class="grid grid-cols-12  gap-4">
             <div class="col-span-2">
-                <div class="nicescroll w-full mt-10 md:w-1/6 bg-white font-bold md:bg-gray-900 px-2  fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen shadow-md">
+                <div class="nicescroll w-full mt-10 md:w-1/6 bg-white font-medium md:bg-gray-900 px-2  fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen shadow-md">
                     <ul >
                         <li class=" pl-2 text-gray-700 "><a href="" class="hover:no-underline hover:text-indigo-500"><img src="{{asset('img/profile.jpg')}}" class="w-6 h-6 rounded-full" alt=""> Udipta</a> </li>
                         <li class=" p-2 text-gray-600 "><a href="{{asset(route('home'))}}" class="hover:no-underline hover:text-indigo-600 "><i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
@@ -93,9 +93,10 @@
                 </div>
             </div>
             <div class="col-span-10">
-                <div class="container bg-gray-300 pt-16 px-6">
+                <div class="container bg-gray-300 pt-16 px-6 pb-16 min-h-screen">
                     @yield('content')
                 </div>
+                <footer class="p-2 bg-white text-center text-xs">Made with <i class="fa fa-heart text-red-500"></i> by Microcept Technologies & Education</footer>
             </div>
         </div>
     </div>
